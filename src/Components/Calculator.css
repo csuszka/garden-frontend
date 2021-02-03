@@ -1,3 +1,10 @@
 .expense-material, .expense-work{
   font-size: 24px;
 }
+
+
+ /* background: url(../img/undraw_coffee_break_h3uu.svg) no-repeat;*/
+
+.amount{
+  color:#467347;
+}
