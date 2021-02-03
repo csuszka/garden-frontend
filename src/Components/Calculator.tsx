@@ -36,7 +36,7 @@ let Calculator = () => {
   return (
     <form className='calculator'>
       <h1>Anyagköltség</h1>
-      <input type="text" placeholder='' className="expense-material" name="material" onChange={handleChange} value = {material} />
+      <input type="text" placeholder=' ' className="expense-material" name="material" onChange={handleChange} value = {material} />
       <h1>Munkadíj</h1>
       <input type="text" placeholder='' className="expense-work" name="work" onChange={handleChange} value = {work}/>
       <div className="output">

@@ -54,6 +54,15 @@ let Description = () => {
             Legalább 50%-os tulajdoni hányaddal rendelkeznek
           </li>
         </ul>
+        <h3>A támogatás összege</h3>
+        <ul>
+          <li>
+            Ha az anyagköltség és a munkadíj közül a kisebb érték nem éri el a kettő összegének a negyedét, akkor a kisebbik érték duplája a megigényelhető összeg.
+          </li>
+          <li>
+            Amennyiben eléri legalább a negyedét, akkor a kettő összegének a fele igényelhető
+          </li>
+        </ul>
       </section>
       <h3>A teljes szövegezést megtalálhatja: Magyar Közlöny 2020 November 25.</h3>
       <a href='https://magyarkozlony.hu/dokumentumok/1862b3fddd579b2cd68a5098a02df86939637121/letoltes'>LETÖLT</a>
