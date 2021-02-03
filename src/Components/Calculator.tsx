@@ -15,7 +15,7 @@ let Calculator = () => {
     }
 
     setOutput(prevState => {
-      let sumExpense = (material + work)/4;
+      let sumExpense = (material + work);
       let smaller: number = 0;
       if (material <= work){
         smaller = material;
@@ -23,7 +23,7 @@ let Calculator = () => {
         smaller = work;
       }
 
-      if(smaller < sumExpense){
+      if(smaller < sumExpense/4){
         return smaller * 2;
       } else {
         return  sumExpense / 2;
