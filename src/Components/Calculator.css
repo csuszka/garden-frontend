@@ -2,6 +2,9 @@
   font-size: 24px;
 }
 
+input {
+  width: 60%;
+}
 
  /* background: url(../img/undraw_coffee_break_h3uu.svg) no-repeat;*/
 
