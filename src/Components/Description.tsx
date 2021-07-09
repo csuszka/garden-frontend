@@ -48,7 +48,7 @@ let Description = () => {
             Legalább egy éve igazoltan ott lakik (a kérelmező és a gyermek)
           </li>
           <li>
-            Támogatást mág nem vettek fel rá (pl. CSOK)
+            Támogatást még nem vettek fel rá (pl. CSOK)
           </li>
           <li>
             Legalább 50%-os tulajdoni hányaddal rendelkeznek
