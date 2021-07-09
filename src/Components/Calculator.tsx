@@ -7,10 +7,10 @@ let Calculator = () => {
 
   let handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     let name = event.target.name;
-    
-    if (name === "material"){
+
+    if (name === "material") {
       setMaterial(prevState => Number(event.target.value));
-    } else if (name === "work"){
+    } else if (name === "work") {
       setWork(prevState => Number(event.target.value));
     }
   }
@@ -18,33 +18,33 @@ let Calculator = () => {
   let calculateOutput = () => {
     let sumExpense = (material + work);
     let smaller: number = 0;
-    if (material <= work){
+    if (material <= work) {
       smaller = material;
-    } else if (work < material){
+    } else if (work < material) {
       smaller = work;
     }
 
-    if(smaller < sumExpense/4){
+    if (smaller < sumExpense / 4) {
       return smaller * 2;
     } else {
-      return  sumExpense / 2;
+      return sumExpense / 2;
     }
   }
-  
+
   const output = calculateOutput();
 
   return (
     <form className='calculator'>
       <h1>Anyagköltség</h1>
-      <input type="text" placeholder=' ' className="expense-material" name="material" onChange={handleChange} value = {material} />
+      <input type="text" placeholder=' ' className="expense-material" name="material" onChange={handleChange} value={material} />
       <h1>Munkadíj</h1>
-      <input type="text" placeholder='' className="expense-work" name="work" onChange={handleChange} value = {work}/>
+      <input type="text" placeholder='' className="expense-work" name="work" onChange={handleChange} value={work} />
       <div className="output">
         <h1>Az igényelhető támogatás:</h1>
-        {output ? <h1 className="amount">{new Intl.NumberFormat('hu').format(output)} Ft</h1> : null}
+        {output ? <h1 className="amount">{new Intl.NumberFormat('hu').format(output)} Ft</h1> : <h1 className="amount"> 0 Ft </h1>}
       </div>
       <div>
-        {output>=3000000 ?<p style={{color:'red'}}>A maximálisan igényelhető támogatás összege 3 000 000 Ft!</p> :null}
+        {output >= 3000000 ? <p style={{ color: 'red' }}>A maximálisan igényelhető támogatás összege 3 000 000 Ft!</p> : null}
       </div>
 
     </form>
