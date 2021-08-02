@@ -4,6 +4,7 @@
 
 input {
   width: 60%;
+  border-radius: 5px;
 }
 
  /* background: url(../img/undraw_coffee_break_h3uu.svg) no-repeat;*/
