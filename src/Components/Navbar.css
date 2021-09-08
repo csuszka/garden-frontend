@@ -1,7 +1,7 @@
 .navbar {
-  color: #404040;
+  color: var(--main-text-color);
   background: white;
-  border-radius: 7px;
+  border-radius: var(--main-border-radius);
   margin: auto;
   margin-bottom: 20px;
   font-size: x-large;
@@ -44,11 +44,11 @@ ul{
 }
 
 .navbar a:visited {
-  color: #7c917c;
+  color: var(--main-bg-color);
 }
 
 .navbar a:hover {
-  background-color: #7c917c;
+  background-color: var(--main-bg-color);
   color: white;
 }
 

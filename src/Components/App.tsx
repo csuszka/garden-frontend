@@ -15,7 +15,7 @@ function App () {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Services} />
+          <Route path="/" exact component={Renovation} />
           <Route path="/otthon" component={Renovation} />
           <Route path="/termekek" component={Webshop} />
           <Route path="/referenciak" component={References} />

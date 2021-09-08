@@ -1,8 +1,8 @@
 .webshop {
-  color: #404040;
+  color: var(--main-text-color);
   text-align: center;
   background: white;
-  border-radius: 7px;
+  border-radius: var(--main-border-radius);
   margin: auto;
   padding: 40px;
 }

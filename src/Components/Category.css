@@ -1,10 +1,14 @@
-.product{
+.category{
   color: var(--main-text-color);
   background: white;
   border-radius: var(--main-border-radius);
-  border: 1px solid var(--main-text-color);
+  border: 1px solid var(--main-bg-color);
   margin: auto;
   margin-bottom: 20px;
   font-size: x-large;
   padding: 10px;
+}
+
+.category-modify-save-button{
+padding: var(--small-padding);
 }

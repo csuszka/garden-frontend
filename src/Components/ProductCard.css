@@ -2,9 +2,9 @@
   width: 200px;
   height: 325px;
   margin: 2px;
-  border: 1px solid #7c917c;
-  border-radius: 3px;
-  color: #7c917c;
+  border: 1px solid var(--main-bg-color);
+  border-radius: var(--small-border-radius);
+  color: var(--main-bg-color);
 }
 
 .product-image{

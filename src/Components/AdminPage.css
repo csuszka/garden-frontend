@@ -1,7 +1,7 @@
 .admin-page{
-  color: #404040;
+  color: var(--main-text-color);
   background: white;
-  border-radius: 7px;
+  border-radius: var(--main-border-radius);
   margin: auto;
   font-size: x-large;
   padding: 20px;
