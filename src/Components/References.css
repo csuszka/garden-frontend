@@ -1,15 +1,8 @@
-.webshop {
+.references {
   color: #404040;
   text-align: center;
   background: white;
   border-radius: 7px;
   margin: auto;
   padding: 40px;
-}
-
-.product-shelf{
-  margin: auto;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 }

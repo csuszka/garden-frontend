@@ -1,4 +1,4 @@
-.webshop {
+.services {
   color: #404040;
   text-align: center;
   background: white;
@@ -7,9 +7,11 @@
   padding: 40px;
 }
 
-.product-shelf{
-  margin: auto;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+.services-type{
+  text-align: left;
+  font-weight: bold;
+}
+
+.services-type li{
+  font-weight: normal;
 }
