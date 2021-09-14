@@ -13,8 +13,8 @@ function Webshop () {
         <ProductCard imageUrl="" productName="" price="" />
         <ProductCard imageUrl="" productName="" price="" />
         <ProductCard imageUrl="" productName="" price="" />
+        <ProductCard imageUrl="" productName="" price="" />*/}
         <ProductCard imageUrl="" productName="" price="" />
-        <ProductCard imageUrl="" productName="" price="" /> */}
 
       </div>
     </div>

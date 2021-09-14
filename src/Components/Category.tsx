@@ -11,9 +11,9 @@ const Category = ({ id, parentId, parentName, name }: Props) => {
   const handleCategoryDelete = (id: number | null) => {
 
   }
-  const handleCategoryChange = () => {
+  // const handleCategoryChange = () => {
 
-  }
+  // }
 
   return (
     <div className="category">
