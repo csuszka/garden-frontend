@@ -8,12 +8,13 @@ function Webshop () {
       <header className="webshop-header">
       </header>
       <div className="product-shelf">
+        <h1>FEJLESZTÉS ALATT</h1>
+        {/* <ProductCard imageUrl="" productName="" price="" />
         <ProductCard imageUrl="" productName="" price="" />
         <ProductCard imageUrl="" productName="" price="" />
         <ProductCard imageUrl="" productName="" price="" />
         <ProductCard imageUrl="" productName="" price="" />
-        <ProductCard imageUrl="" productName="" price="" />
-        <ProductCard imageUrl="" productName="" price="" />
+        <ProductCard imageUrl="" productName="" price="" /> */}
 
       </div>
     </div>
